@@ -3,14 +3,14 @@ import React from 'react'
 
 const page = () => {
   return (
-    <>
-      <nav>
+  <>
+    <nav>
         <div className='flex my-[1rem] justify-end items-center px-[5rem] gap-[2rem] ' >
-          <Link href={"/"}>Home</Link>
-          <Link href={"/login"}>Login</Link>
+        <Link href={"/"}>Home</Link>
+        <Link href={"/login"}>Login</Link>
         </div>
-      </nav>
-    </>
+    </nav>
+  </>
   )
 }
 
