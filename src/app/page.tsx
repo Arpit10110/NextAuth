@@ -1,7 +1,12 @@
+import { auth } from '@/auth'
 import Link from 'next/link'
 import React from 'react'
 
-const page = () => {
+const page = async() => {
+
+  const user = await auth()
+  console.log(user)
+
   return (
     <>
       <nav>
